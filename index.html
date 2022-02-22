@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Original JPG</p>
+      <p>190 ko</p>
+      <img src="optim_images/picture.jpg" width="400" />
+    </div>
+    <div>
+      <p>AVIF</p>
+      <p>34 ko</p>
+      <img src="optim_images/picture.avif" type="image/avif" />
+    </div>
+    <div>
+      <p>WEBP 75</p>
+      <p>23 ko</p>
+      <img src="optim_images/picture.webp" type="image/webp" />
+    </div>
+    <div>
+      <p>WEBP 50</p>
+      <p>18 ko</p>
+      <img src="optim_images/picture2.webp" type="image/webp" />
+    </div>
+    <div>
+      <p>WEBP 25</p>
+      <p>11 ko</p>
+      <img src="optim_images/picture25.webp" type="image/webp" />
+    </div>
+    <div>
+      <p>WEBP 0</p>
+      <p>2.5 ko</p>
+      <img src="optim_images/picture0.webp" type="image/webp" />
+    </div>
+  </body>
+</html>
